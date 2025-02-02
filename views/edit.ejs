@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management</title>
+    <link rel="stylesheet" href="/stylesheets/output.css">
+</head >
+<body class=" text-white ">
+    <div class="main  bg-zinc-900 min-w-full min-h-screen p-10" >
+        <a href="/" class="text-blue-500 inline-block mb-10">Go Back To Home</a>
+        <form action="/edit" method="post">
+            <input class="bg-zinc-700 block px-5 py-2 m-5 min-w-1/4 rounded-2xl" type="text" placeholder="Previous Title" name="previous" value="<%= filename%>">
+            <input class="bg-zinc-700 block px-5 py-2 m-5 min-w-1/4 rounded-2xl" type="text" placeholder="Enter New Title Here" name="new">
+             <input type="submit" value="Update title" class="bg-yellow-600 block m-5 p-2 rounded-2xl outline-none" >
+         </form>
+       
+    </div>
+<script src="/javascripts/script.js"></script>
+</body>
+</html>
